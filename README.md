@@ -20,7 +20,7 @@ Eugene Kegeles kegeles.ea@phystech.edu
 ``` bash
 sudo rm -rf /
 ```  
-**wipes out your entire hard drive. Doublecheck every step you make under root-access.**  
+**wipes out your entire hard drive. Doublecheck every step you are makeing under the root access**  
 
 
 ## Usage
@@ -82,6 +82,10 @@ image = ALPHA * image + BETA
 
 4. Background substraction is performed.
 
+``` python
+image = image - background
+```
+
 5. Image is being thresholded with the IMAGE_THRESHOLD.
 
 6. Median filter is applied to the thresholded image of FILTER_SIZE.
@@ -89,4 +93,6 @@ image = ALPHA * image + BETA
 7. Number of 255 - valued pixels is calculated in the thresholded and filtered image. This score represents GFP - positive area in the well.
 
 8. Wells with the score higher then IMAGE_THRESHOLD are selected.
+
+
 
