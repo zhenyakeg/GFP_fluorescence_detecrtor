@@ -27,23 +27,23 @@ usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
     * -h, --help            show this help message and exit
 
     *  -t TYPES, --types TYPES
-                        Image types you are going to analyse separated with a space.
+                        Image types you are going to analyse separated with a space.  
                         *Defaults: png, tif*
                         
     *  -pt PIXEL_THRESHOLD, --pixel_threshold PIXEL_THRESHOLD
-                        Pixel threshold applied to your images. Type: int
+                        Pixel threshold applied to your images. Type: int.  
                         *Default: 9*
     *  -it IMAGE_THRESHOLD, --image_threshold IMAGE_THRESHOLD
-                        Image score threshold applied to your images. Type: int
+                        Image score threshold applied to your images. Type: int.  
                         *Default: 589*
     *  -f FILTER_SIZE, --filter_size FILTER_SIZE
                         Median filter radius applied to your images for
-                        smoothing. Type: odd int
+                        smoothing. Type: odd int.  
                         *Default: 3*
     * -a ALPHA, --alpha ALPHA
                         Contrast enhansement. Type: float
                         *Default: 1.4*
-    * -b BETA, --beta BETA  Brightness enhansement. Typ: int
+    * -b BETA, --beta BETA  Brightness enhansement. Type: int.  
                         *Default: 10*
         
 
