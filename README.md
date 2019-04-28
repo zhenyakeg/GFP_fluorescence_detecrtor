@@ -2,6 +2,9 @@
 
 This program is designed for detection of GFP fluorescence in 96-well plates.
 
+## Contacts
+
+Eugene Kegeles kegeles.ea@phystech.edu
 ## Requirements
 
 - Python 3.x
@@ -17,14 +20,15 @@ usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
                         Full input path for your experiment with scanned plates inside.
       
       ```bash
-        "./Folder_with_experiment/Folders_with_plates
+        ./Folder_with_experiment/Folders_with_plates
         # inside the plate folder images should be named as [A-D][01-12]_*.file_type
       ```
 2. **Optional arguments:**
     * -h, --help            show this help message and exit
 
     *  -t TYPES, --types TYPES
-                        Image types you are going to analyse.
+                        Image types you are going to analyse separated with a space. 
+                        * *Defaults: png, tif* *
     *  -pt PIXEL_THRESHOLD, --pixel_threshold PIXEL_THRESHOLD
                         Pixel threshold applied to your images.
     *  -it IMAGE_THRESHOLD, --image_threshold IMAGE_THRESHOLD
