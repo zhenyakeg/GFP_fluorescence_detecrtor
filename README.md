@@ -45,7 +45,7 @@ usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
                         *Default: 3*
     * -a ALPHA, --alpha ALPHA
                         Contrast enhansement.  
-                        Type: float
+                        Type: float.  
                         *Default: 1.4*
     * -b BETA, --beta BETA  Brightness enhansement.  
                           Type: int.  
