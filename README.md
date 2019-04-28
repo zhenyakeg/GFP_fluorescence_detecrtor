@@ -14,13 +14,13 @@ Eugene Kegeles kegeles.ea@phystech.edu
 
 ## Installation
 
-[Very detailed manual for installation of OpenCV and all needed dependancies on Mac:](https://www.pyimagesearch.com/2018/08/17/install-opencv-4-on-macos/).
+[Very detailed manual for installation of OpenCV and all needed dependancies on Mac](https://www.pyimagesearch.com/2018/08/17/install-opencv-4-on-macos/)
 
-**NOTE: Be very carefull with your actions in terminal after you got root access using sudo command! After you got root access OS is not protecting you from bringing changes to your csystem. For example command:
+**NOTE: Be very carefull with your actions in terminal after you got root access using sudo command! After you got root access OS is not protecting you from bringing changes to your csystem. For example command:**
 ``` bash
 sudo rm -rf /
 ```
-wipes out your entire hard drive. Doublecheck every step you make under root-access.
+**wipes out your entire hard drive. Doublecheck every step you make under root-access.
 **
 ## Usage
 
