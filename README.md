@@ -55,16 +55,26 @@ usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
 
 All the Output files will be stored in each plate's directory.
 
-- Makes a new directory "Changed" with modified images showing GFP-positive areas of all the organoids in this plate.
-- File "log.txt" contains the information about all selected orgnoids from this plate: score, background level, etc.
-- File "layout.txt" shows where in a plate selected organoids were located.
+- Makes a new directory "Changed" with modified images showing GFP-positive areas in all wells of this plate.
+- File "log.txt" contains the information about all selected wells from this plate: score, background, etc.
+- File "layout.txt" shows where in a plate selected wells were located.
 
 ## Algorithm overview
 
 1. RGB image is converted to monochrome.
-2. Contrast enhansmentr is performed.  
+2. Contrast enhansment is performed.  
 ``` python
 image = ALPHA * image + BETA
 ```
-3. Background is 
+3. Background is calculated as an average intensity on a rectangle with the center in the middle of the image and with linear sizes corresponding to 80% of an image dimentions.
+
+4. Background substraction is performed.
+
+5. Image is being thresholded with the IMAGE_THRESHOLD.
+
+6. Median filter is applied to the thresholded image of FILTER_SIZE.
+
+7. Number of 255 - valued pixels is calculated in the thresholded and filtered image. This score represents GFP - positive area in the well.
+
+8. Wells with the score higher then IMAGE_THRESHOLD are selected.
 
