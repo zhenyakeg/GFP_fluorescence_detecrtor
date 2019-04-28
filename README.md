@@ -15,10 +15,10 @@ usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
 1. **Required arguments:**
     -  -i INPUT, --input INPUT
                         Full input path for your experiment with scanned plates inside.
-      python
-      ''' 
+      
+      ,,, 
         # "./Folder_with_experiment/Folders_with_plates( inside the plate folder images should be named as [A-D][01-12]_*.png
-      '''
+      ,,,
 2. **Optional arguments:**
     * -h, --help            show this help message and exit
 
