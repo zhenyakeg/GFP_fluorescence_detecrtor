@@ -61,5 +61,10 @@ All the Output files will be stored in each plate's directory.
 
 ## Algorithm overview
 
-
+1. RGB image is converted to monochrome.
+2. Contrast enhansmentr is performed.  
+``` python
+image = ALPHA * image + BETA
+```
+3. Background is 
 
