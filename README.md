@@ -11,8 +11,7 @@ This program is designed for detection of GFP fluorescence in 96-well plates.
 ## Usage
 
 usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
-                           [-it IMAGE_THRESHOLD] [-f FILTER_SIZE]
-                           [-r ROLLING_BALL] [-a ALPHA] [-b BETA]
+                           [-it IMAGE_THRESHOLD] [-f FILTER_SIZE] [-a ALPHA] [-b BETA] \\
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -28,9 +27,6 @@ optional arguments:
   -f FILTER_SIZE, --filter_size FILTER_SIZE
                         Median filter radius applied to your images for
                         smoothing.
-  -r ROLLING_BALL, --rolling_ball ROLLING_BALL
-                        If >0 radius for rolling ball background subtraction
-                        applied to your images.
   -a ALPHA, --alpha ALPHA
                         Contrast enhansement.
   -b BETA, --beta BETA  Brightness enhansement.
