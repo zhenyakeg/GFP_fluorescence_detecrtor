@@ -51,4 +51,15 @@ usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
                           Type: int.  
                         *Default: 10*
         
+## Output
+
+All the Output files will be stored in each plate's directory.
+
+- Makes a new directory "Changed" with modified images showing GFP-positive areas of all the organoids in this plate.
+- File "log.txt" contains the information about all selected orgnoids from this plate: score, background level, etc.
+- File "layout.txt" shows where in a plate selected organoids were located.
+
+## Algorithm overview
+
+
 
