@@ -14,7 +14,7 @@ Eugene Kegeles kegeles.ea@phystech.edu
 ## Usage
 
 usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
-                           [-it IMAGE_THRESHOLD] [-f FILTER_SIZE] [-a ALPHA] [-b BETA] \\
+                           [-it IMAGE_THRESHOLD] [-f FILTER_SIZE] [-a ALPHA] [-b BETA] 
 1. **Required arguments:**
     -  -i INPUT, --input INPUT
                         Full input path for your experiment with scanned plates inside.
@@ -27,8 +27,8 @@ usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
     * -h, --help            show this help message and exit
 
     *  -t TYPES, --types TYPES
-                        Image types you are going to analyse separated with a space. 
-                        * *Defaults: png, tif* *
+                        Image types you are going to analyse separated with a space. \\
+                        *Defaults: png, tif*
     *  -pt PIXEL_THRESHOLD, --pixel_threshold PIXEL_THRESHOLD
                         Pixel threshold applied to your images.
     *  -it IMAGE_THRESHOLD, --image_threshold IMAGE_THRESHOLD
