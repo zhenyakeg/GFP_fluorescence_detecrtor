@@ -13,7 +13,7 @@ This program is designed for detection of GFP fluorescence in 96-well plates.
 usage: python Image processing.py [-h] -i INPUT [-t TYPES] [-pt PIXEL_THRESHOLD]
                            [-it IMAGE_THRESHOLD] [-f FILTER_SIZE] [-a ALPHA] [-b BETA] \\
 1. Required arguments
-  *  -i INPUT, --input INPUT
+  -  -i INPUT, --input INPUT
                         Full input path for your experiment with scanned
                         plates inside.
 optional arguments:
