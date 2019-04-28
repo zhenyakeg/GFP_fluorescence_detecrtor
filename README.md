@@ -20,7 +20,7 @@ Eugene Kegeles kegeles.ea@phystech.edu
 ``` bash
 sudo rm -rf /
 ```  
-**wipes out your entire hard drive. Doublecheck every step you are makeing under the root access**  
+**wipes out your entire hard drive. Doublecheck every step you are making under the root access!**  
 
 
 ## Usage
