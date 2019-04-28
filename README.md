@@ -4,6 +4,10 @@ This program is designed for detection of GFP fluorescence in 96-well plates.
 
 ## Requirements
 
-\begin(enumerate)
-\item kkk
-\end(enumerate)
+- Python 3.x
+- NumPy library
+- OpenCV library
+
+## Usage
+
+
